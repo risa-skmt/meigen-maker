@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meigen_maker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header></header>
+    <main>
+       <div class="title">
+        <p>名言メーカー</p>
+       </div>
+
+       <div class="inputForm">
+        <input type="text" id="text" value>
+        <input type="button" value="送信" onclick="addAnswer()" />
+       </div>
+
+       <div class="frame">
+              <span id="answer"></span>
+       </div>
+
+
+
+       <script>
+         function addAnswer(){
+            //console.log("test");
+            answer = document.getElementById("answer");
+            //console.log(answer);
+
+             text = document.getElementById("text");
+             //console.log(text);
+
+             answerText = text.value;
+             //console.log(answerText);
+
+             answer.innerText = answerText;
+         }
+
+       </script>
+
+
+    </main>
+    <footer></footer>
+</body>
+</html>

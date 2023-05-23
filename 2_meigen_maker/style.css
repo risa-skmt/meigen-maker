@@ -1,0 +1,28 @@
+
+
+
+
+.title{
+  text-align: center;
+}
+
+.title p{
+    font-size: 30px;
+}
+
+
+.inputForm{
+  text-align: center;
+}
+
+
+.frame{
+  margin:2em auto;
+  padding:2em;
+  border:solid 2px #A5A19A;
+}
+
+
+.text{
+  font-style: italic;
+}
