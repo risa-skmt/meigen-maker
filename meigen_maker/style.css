@@ -16,14 +16,34 @@
 }
 
 
-.frame{
+.anime_frame{
   margin:2em auto;
   padding:2em;
   border:solid 2px #A5A19A;
   text-align: center;
+  white-space:nowrap;
+  overflow:hidden;
 }
 
+.anime_frame.animation{
+  animation: show-text 15s linear infinite;
+}
+
+@keyframes  show-text {
+
+  from {
+  
+  width:0%;
+  }
+  
+  to {
+  
+  width:100%;
+  }
+  
+  }
 
 .frame span{
   font-style: italic;
 }
+

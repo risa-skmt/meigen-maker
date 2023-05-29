@@ -1,0 +1,78 @@
+
+
+main{
+    /* background-image:url("https://i.ibb.co/WxVHpwM/image.jpg"); */
+    background-image: url("https://i.ibb.co/j8xMh4c/hester-qiang-b-Srqpo-Oz7-Ec-unsplash.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+
+
+.title{
+    text-align: center;
+  }
+  
+  .title p{
+      font-size: 30px;
+      font-family: 'Shippori Mincho', serif;
+      font-weight: bold;
+  }
+  
+  
+  .inputForm{
+    text-align: center;
+    padding: 30px;
+  }
+
+
+
+.button{
+    height: 30px;
+}
+
+.input{
+    height: 30px;
+    width: 200px;
+}
+  
+
+  .frame{
+    text-align: center;
+    width: 60%;
+    margin: 60px auto ;
+    padding:5em;
+    border:solid 2px #A5A19A;
+    background-color: #a8a49c48;
+  }
+
+
+
+.flowing {
+    white-space:nowrap;
+    overflow:hidden;
+    animation-name: flowing;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    font-family: 'Playfair Display', serif, 'Noto Serif JP', serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 50px;
+    margin: 30px;
+    }
+    
+    @keyframes flowing {
+    
+    from {
+    
+    width:0%;
+    }
+    to {
+
+        width:100%
+        }
+    
+    }
+    

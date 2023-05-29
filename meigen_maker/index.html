@@ -12,7 +12,7 @@
     <header></header>
     <main>
        <div class="title">
-        <p>名言メーカー</p>
+        <p>メーカー</p>
        </div>
 
        <div class="inputForm">
@@ -20,7 +20,7 @@
         <input type="button" value="送信" onclick="addAnswer()" />
        </div>
 
-       <div class="frame">
+       <div class="anime_frame">
               <span id="answer"></span>
        </div>
 
@@ -37,8 +37,12 @@
 
              answerText = text.value;
              //console.log(answerText);
-
              answer.innerText = answerText;
+
+            const animeFrame = document.querySelector('.anime_frame');
+            animeFrame.classList.add('animate');
+
+
              text.value = "";
          }
 
